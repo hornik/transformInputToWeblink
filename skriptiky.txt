@@ -1,0 +1,9 @@
+$("input").change(function(){
+    $(".input").after(anchorme($(".input").val()));
+});
+
+
+
+$("input").change(function(){
+    $(".input").replaceWith(anchorme($(".input").val()));
+});
